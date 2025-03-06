@@ -11,12 +11,5 @@ BEGIN
 	BEGIN
 		SET @start_date = DATEADD(DAY, -2, @start_date);
 	END
-
-	--PRINT('GetNewYearHolidaysStartDate');
-	--PRINT(@new_year_date);
-	--PRINT(@weekday);
-	--PRINT(DATENAME(WEEKDAY, @new_year_date));
-	--PRINT(@start_date);
-	--PRINT('---------------------------');
 	RETURN @start_date;
 END

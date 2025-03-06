@@ -3,7 +3,7 @@ SET DATEFIRST 1;
 GO
 
 
-CREATE PROCEDURE sp_AddNewYearHolidaysFor
+ALTER PROCEDURE sp_AddNewYearHolidaysFor
 	@year	AS	SMALLINT
 AS
 BEGIN
